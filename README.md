@@ -19,3 +19,7 @@ with open("number.txt", "r+") as f:
 &emsp; random_int = f.readline()      (stores the random integer in a variable to be used by main program)
 
 &emsp; f.truncate(0)                            (leave the text file blank until next microservice call)
+
+### UML Sequence Diagram:
+
+<img src="UML.png">
